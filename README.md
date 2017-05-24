@@ -35,9 +35,9 @@ the correct PATH and PYTHONPATH enabling the use of your `Anaconda` install.
 
 	source anaconda_setup.sh
 
-You can either run this command each time you need to use anaconda, or
-add these lines to your .bashrc (or equivalent) so set it up
-permanently when opening a new terminal.
+You can either run this command each time you need to use `Anaconda`,
+or add these lines to your `.bashrc` (or equivalent) to set it up at
+the opening of a new terminal.
 
 - Install the extra python libraries (see next section).
 
