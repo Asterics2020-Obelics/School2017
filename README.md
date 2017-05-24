@@ -16,6 +16,30 @@ programming for astrophysics and astroparticle physics".
 
 ### Linux
 
+[Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
+the linux `Anaconda` installer for Python 3.6 (see install instruction
+[here](https://www.continuum.io/downloads#linux). Run the following
+command line:
+
+	bash Anaconda3-4.3.1-Linux-x86_64.sh
+
+Answer `no` to the following question if you do not want to mess up your previous installs of python:
+	
+
+	Do you wish the installer to prepend the Anaconda3 install location
+	to PATH in your /home/chotard/.bashrc ? [yes|no]
+	[no] >>> no
+
+Run the following script (located in the current directory) to set up
+the correct PATH and PYTHONPATH anabling the use of your install of
+`Anaconda`.
+
+	source anaconda_setup.sh
+
+You can either run this command each time you need to use anaconda, or
+add these lines to your .bashrc (or equivalent) so set it up
+permanently when opening a new terminal.
+
 ### Mac
 
 ### Windows
