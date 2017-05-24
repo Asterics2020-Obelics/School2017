@@ -39,7 +39,7 @@ programming for astrophysics and astroparticle physics".
 
 ## Other requirements
 
-- pycharm
+- pycharm (Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/))
 
 # Tutors
 
