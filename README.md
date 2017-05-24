@@ -45,14 +45,18 @@ the opening of a new terminal.
 
 Instruction for Mac can be found
 [here](https://www.continuum.io/downloads#windows). To set up the PATH
-and PYTHON path, you can do as explained in the previous section for
-Linux install.
+and PYTHON, you can do as explained in the previous section for Linux
+install.
 
 ### Windows
 
 Instruction for Windows can be found [here](https://www.continuum.io/downloads#windows)
 
 ## Python library requirements
+
+If you choose an other way to install Python 3.6 than the one
+recommended above, you might want to install manually the following
+Python libraries, which all come with `Anaconda`.
 
 - ipython
 - jupyter
@@ -67,9 +71,11 @@ Instruction for Windows can be found [here](https://www.continuum.io/downloads#w
 - cython
 - h5py
 - pytables
-- (scikit-learn?)
+- scikit-learn
 
 ## Other requirements
+
+Some other Python related tools that you might consider installing:
 
 - pycharm (Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/))
 
