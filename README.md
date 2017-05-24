@@ -1,3 +1,5 @@
+[![School banner](https://indico.in2p3.fr/event/14227/logo)](https://indico.in2p3.fr/event/14227/logo)
+
 # Overview
 
 This repository contains all the material needed for the [1st
