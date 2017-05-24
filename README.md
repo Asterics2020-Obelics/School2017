@@ -55,23 +55,13 @@ Instruction for Windows can be found [here](https://www.continuum.io/downloads#w
 ## Python library requirements
 
 If you choose an other way to install Python 3.6 than the one
-recommended above, you might want to install manually the following
-Python libraries, which all come with `Anaconda`.
+recommended above, you might want to install manually the Python
+libraries listed in the [requirements.txt](requirements.txt) file. To
+do so, we recommand using `pip`.
 
-- ipython
-- jupyter
-- numpy
-- scipy
-- pandas
-- sympy
-- numexpr
-- astropy
-- numba
-- matplotlib
-- cython
-- h5py
-- pytables
-- scikit-learn
+	  pip install -r requirements.txt
+
+All these libraries come with the `Anaconda` install described above.
 
 ## Other requirements
 
