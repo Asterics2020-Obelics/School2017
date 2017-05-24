@@ -46,11 +46,11 @@ the opening of a new terminal.
 Instruction for Mac can be found
 [here](https://www.continuum.io/downloads#windows). To set up the PATH
 and PYTHON, you can do as explained in the previous section for Linux
-install.
+install. (Not tested yet).
 
 ### Windows
 
-Instruction for Windows can be found [here](https://www.continuum.io/downloads#windows)
+Instruction for Windows can be found [here](https://www.continuum.io/downloads#windows). (Not tested yet).
 
 ## Python library requirements
 
