@@ -43,8 +43,8 @@ programming for astrophysics and astroparticle physics".
 
 Here is the list of tutors for the hands-on sessions. Four are needed for each session.
 
-| Hands-on               | Main tutor(s)              | Other tutors                             ||
-| ---------------------- |:--------------------------:|:-----------------------------------------:|
+| Hands-on               | Main tutor(s)              | Other tutors                              |
+| ---------------------- |----------------------------|-------------------------------------------|
 | Numpy                  | Tamas Gal                  | Axel Donath, Johannes King                |
 | Pandas                 | Tamas Gal                  |                                           |
 | Astropy                | Axel Donath, Johannes King |                                           |
