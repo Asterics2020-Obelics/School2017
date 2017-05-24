@@ -1,0 +1,14 @@
+ipython
+jupyter
+numpy
+scipy
+pandas
+sympy
+numexpr
+astropy
+numba
+matplotlib
+cython
+h5py
+pytables
+scikit-learn
