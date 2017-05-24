@@ -35,7 +35,7 @@ the linux `Anaconda` installer for Python 3.6 (see install instruction
 
 	bash Anaconda3-4.3.1-Linux-x86_64.sh
 
-Answer `no` to the following question if you do not want to mess up your previous installs of python.
+- Answer `no` to the following question if you do not want to mess up your previous installs of python.
 	
 	Do you wish the installer to prepend the Anaconda3 install location
 	to PATH in your /home/chotard/.bashrc ? [yes|no]
@@ -49,6 +49,7 @@ Answer `no` to the following question if you do not want to mess up your previou
 PYTHONPATH enabling the use of your `Anaconda` install.
 
 	source anaconda_setup.sh
+
 
 You can either run this command each time you need to use `Anaconda`,
 or add these lines to your `.bashrc` (or equivalent) to set it up at
