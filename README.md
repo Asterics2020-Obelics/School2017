@@ -43,7 +43,14 @@ the opening of a new terminal.
 
 ### Mac
 
+Instruction for Mac can be found
+[here](https://www.continuum.io/downloads#windows). To set up the PATH
+and PYTHON path, you can do as explained in the previous section for
+Linux install.
+
 ### Windows
+
+Instruction for Windows can be found [here](https://www.continuum.io/downloads#windows)
 
 ## Python library requirements
 
