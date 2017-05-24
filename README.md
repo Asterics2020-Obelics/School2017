@@ -9,10 +9,21 @@ programming for astrophysics and astroparticle physics".
 
 # Software install
 
+## Local copy of this repository
+
+Clone this repository on your personal computer.
+
+      git clone https://github.com/Asterics2020-Obelics/School2017.git
+
+You will need it before the school to install the different tools, and
+during the school while attending the hands-on.
+
 ## Recommendation for Python install
 
-- Python 3.6
-- Anaconda [link](https://www.continuum.io/downloads)
+You must install Python 3.6 and a few python libraries. The
+recommended way to do so is to use
+[Anaconda](https://www.continuum.io/downloads). The procedures
+described bellow will help you install what is needed for the school.
 
 ### Linux
 
@@ -30,8 +41,12 @@ Answer `no` to the following question if you do not want to mess up your previou
 	to PATH in your /home/chotard/.bashrc ? [yes|no]
 	[no] >>> no
 
-- Run the following script (located in the current directory) to set up
-the correct PATH and PYTHONPATH enabling the use of your `Anaconda` install.
+- If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
+
+     	wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
+
+- Run the `anaconda_setup.sh` script to set up the correct PATH and
+PYTHONPATH enabling the use of your `Anaconda` install.
 
 	source anaconda_setup.sh
 
