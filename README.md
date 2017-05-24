@@ -5,7 +5,9 @@
 This repository contains all the material needed for the [1st
 ASTERICS-OBELICS International
 School](https://indico.in2p3.fr/event/14227) on "Advanced software
-programming for astrophysics and astroparticle physics".
+programming for astrophysics and astroparticle physics". The time
+table is available at the following
+[location](https://indico.in2p3.fr/event/14227/timetable/#20170606).
 
 # Software install
 
@@ -66,18 +68,21 @@ install. (Not tested yet).
 
 ### Windows
 
-Instruction for Windows can be found [here](https://www.continuum.io/downloads#windows). (Not tested yet).
+Instruction for Windows can be found
+[here](https://www.continuum.io/downloads#windows). (Not tested yet).
 
 ## Python library requirements
 
+All the required libraries come with the `Anaconda` install described
+above. If you have followed the previous steps to install python, you
+can skip this section.
+
 If you choose an other way to install Python 3.6 than the one
-recommended above, you might want to install manually the Python
-libraries listed in the [requirements.txt](requirements.txt) file. To
-do so, we recommand using `pip`.
+recommended above, you must install manually the Python libraries
+listed in the [requirements.txt](requirements.txt) file. To do so, we
+recommand using `pip`.
 
 	  pip install -r requirements.txt
-
-All these libraries come with the `Anaconda` install described above.
 
 ## Other requirements
 
@@ -89,21 +94,23 @@ Some other Python related tools that you might consider installing:
 
 Here is the list of tutors for the hands-on sessions. Four are needed for each session.
 
-| Hands-on               | Main tutor(s)              | Other tutors                              |
-| ---------------------- |----------------------------|-------------------------------------------|
-| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert |
-| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack             |
-| Astropy                | Axel Donath, Johannes King | Karl Kosack                               |
-| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert|
-| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier |
-| GPU Programming        | Valeriu Codreanu           | Pierre Aubert                             |
+| Hands-on               | Main tutor(s)              | Other tutors                                 |
+| ---------------------- |----------------------------|----------------------------------------------|
+| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert    |
+| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack                |
+| Astropy                | Axel Donath, Johannes King | Karl Kosack                                  |
+| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert |
+| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier    |
+| GPU Programming        | Valeriu Codreanu           | Pierre Aubert                                |
+
+The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/page/10).
 
  
 # Help
 
 Please create a [new
 issue](https://github.com/Asterics2020-Obelics/School2017/issues) for
-each questions you may have before or during the school about software
+each question you may have before or during the school about software
 install and/or about one of the classes. Of course, you might want to
 first check the existing list of issues to see if your question has
 already been asked and answered before creating a new one.
