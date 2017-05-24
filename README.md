@@ -11,7 +11,7 @@ programming for astrophysics and astroparticle physics".
 
 ## Recommendation for Python install
 
-- python 3.x
+- Python 3.6
 - Anaconda [link](https://www.continuum.io/downloads)
 
 ### Linux
@@ -44,7 +44,7 @@ the opening of a new terminal.
 ### Mac
 
 Instruction for Mac can be found
-[here](https://www.continuum.io/downloads#windows). To set up the PATH
+[here](https://www.continuum.io/downloads#macos). To set up the PATH
 and PYTHON, you can do as explained in the previous section for Linux
 install. (Not tested yet).
 
