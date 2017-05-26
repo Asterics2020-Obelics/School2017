@@ -1,6 +1,11 @@
 [![School banner](https://indico.in2p3.fr/event/14227/logo)](https://indico.in2p3.fr/event/14227/logo)
 
-# Overview
+**Table on content**
+- [Overview](#overview)
+- [Software install](#install)
+- [Tutors](#tutors)
+
+# Overview <a name="overview"></a>
 
 This repository contains all the material needed for the [1st
 ASTERICS-OBELICS International
@@ -9,7 +14,7 @@ programming for astrophysics and astroparticle physics". The time
 table is available at the following
 [location](https://indico.in2p3.fr/event/14227/timetable/#20170606).
 
-# Software install
+# Software install <a name="install"></a>
 
 ## Local copy of this repository
 
@@ -111,7 +116,7 @@ Some other Python related tools that you might consider installing:
 
 - pycharm (Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/))
 
-# Tutors
+# Tutors <a name="tutors"></a>
 
 Here is the list of tutors for the hands-on sessions. Four are needed for each session.
 
