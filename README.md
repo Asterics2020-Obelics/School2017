@@ -25,17 +25,16 @@ during the school while attending the hands-on.
 You must install Python 3.6 and a few python libraries. The
 recommended way to do so is to use
 [Anaconda](https://www.continuum.io/downloads). The procedures
-described bellow will help you install what is needed for the school.
+described bellow will help you install what is needed for the school. Alternative install instructions can be found [here](https://www.continuum.io/downloads#linux))
 
 ### Linux
 
 - [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
-the linux `Anaconda` installer for Python 3.6 (see install instruction
-[here](https://www.continuum.io/downloads#linux)).
+the linux `Anaconda` installer for Python 3.6.
 
 - Run the following command line:
 
-	bash Anaconda3-4.3.1-Linux-x86_64.sh
+		bash Anaconda3-4.3.1-Linux-x86_64.sh
 
 - Answer `no` to the following question if you do not want to mess up your previous installs of python.
 	
@@ -45,13 +44,12 @@ the linux `Anaconda` installer for Python 3.6 (see install instruction
 
 - If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
 
-     	wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
+		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
 
 - Run the `anaconda_setup.sh` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
-	source anaconda_setup.sh
-
+		source anaconda_setup.sh
 
 You can either run this command each time you need to use `Anaconda`,
 or add these lines to your `.bashrc` (or equivalent) to set it up at
