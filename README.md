@@ -60,7 +60,7 @@ the opening of a new terminal.
 ### Mac
 
 - [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.sh)
-the linux `Anaconda` installer for Python 3.6.
+the Mac `Anaconda` installer for Python 3.6.
 
 - Run the following command line:
 
@@ -72,7 +72,7 @@ the linux `Anaconda` installer for Python 3.6.
 	to PATH in your /home/chotard/.bashrc ? [yes|no]
 	[no] >>> no
 
-- If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
+- If you haven't cloned this repository, first get the `anaconda_mac_setup.sh` script:
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_mac_setup.sh
 
