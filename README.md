@@ -1,20 +1,5 @@
 [![School banner](https://indico.in2p3.fr/event/14227/logo)](https://indico.in2p3.fr/event/14227/logo)
 
-**Table on content**
-- [Overview](#overview)
-- [Software install](#install)
-    - [Local copy of this repository](#repo)
-    - [Recommendation for Python install](#python)
-        - [Linux](#linux)
-	- [Mac](#mac)
-	- [Windows](#windows)
-    - [Python library requirements](#python-req)
-    - [Other requirements](#python-req)
-- [Tutors](#tutors)
-- [Help](#help)
-
-# Overview <a name="overview"></a>
-
 This repository contains all the material needed for the [1st
 ASTERICS-OBELICS International
 School](https://indico.in2p3.fr/event/14227) on "Advanced software
@@ -22,9 +7,18 @@ programming for astrophysics and astroparticle physics". The time
 table is available at the following
 [location](https://indico.in2p3.fr/event/14227/timetable/#20170606).
 
-# Software install <a name="install"></a>
+**Table on content**
+- [Local copy of this repository](#repo)
+- [Recommendation for Python install](#python)
+    - [Linux](#linux)
+    - [Mac](#mac)
+    - [Windows](#windows)
+    - [Library requirements](#python-req)
+- [Other requirements](#python-req)
+- [Tutors](#tutors)
+- [Help](#help)
 
-## Local copy of this repository <a name="repo"></a>
+# Local copy of this repository <a name="repo"></a>
 
 Clone this repository on your personal computer.
 
@@ -33,14 +27,14 @@ Clone this repository on your personal computer.
 You will need it before the school to install the different tools, and
 during the school while attending the hands-on.
 
-## Recommendation for Python install <a name="python"></a>
+# Recommendation for Python install <a name="python"></a>
 
 You must install Python 3.6 and a few python libraries. The
 recommended way to do so is to use
 [Anaconda](https://www.continuum.io/downloads). The procedures
 described bellow will help you install what is needed for the school. Alternative install instructions can be found [here](https://www.continuum.io/downloads#linux))
 
-### Linux <a name="linux"></a>
+## Linux <a name="linux"></a>
 
 - [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
 the linux `Anaconda` installer for Python 3.6.
@@ -70,7 +64,7 @@ the opening of a new terminal.
 
 - See next section for extra python libraries requirements (if any).
 
-### Mac <a name="mac"></a>
+## Mac <a name="mac"></a>
 
 - [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.sh)
 the Mac `Anaconda` installer for Python 3.6.
@@ -100,12 +94,12 @@ the opening of a new terminal.
 
 - See next section for extra python libraries requirements (if any).
 
-### Windows <a name="windows"></a>
+## Windows <a name="windows"></a>
 
 Instruction for Windows can be found
 [here](https://www.continuum.io/downloads#windows). (Not tested yet).
 
-## Python library requirements <a name="python-req"></a>
+## Library requirements <a name="python-req"></a>
 
 All the required libraries come with the `Anaconda` install described
 above. If you have followed the previous steps to install python, you
@@ -118,7 +112,7 @@ recommand using `pip`.
 
 	  pip install -r requirements.txt
 
-## Other requirements <a name="python-req"></a>
+# Other requirements <a name="python-req"></a>
 
 Some other Python related tools that you might consider installing:
 
