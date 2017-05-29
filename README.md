@@ -126,16 +126,16 @@ Some other Python related tools that you might consider installing:
 
 # Tutors <a name="tutors"></a>
 
-Here is the list of tutors for the hands-on sessions. Four are needed for each session.
+Here is the list of tutors for the hands-on sessions. Four (or more) are needed for each session (except for GPU and parallel which are parallel sessions).
 
-| Hands-on               | Main tutor(s)              | Other tutors                                 |
-| ---------------------- |----------------------------|----------------------------------------------|
-| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert    |
-| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack                |
-| Astropy                | Axel Donath, Johannes King | Karl Kosack                                  |
-| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert |
-| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier    |
-| GPU Programming        | Valeriu Codreanu           | Pierre Aubert                                |
+| Hands-on               | Main tutor(s)              | Other tutors                                                |
+| ---------------------- |----------------------------|-------------------------------------------------------------|
+| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel    |
+| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack                               |
+| Astropy                | Axel Donath, Johannes King | Karl Kosack                                                 |
+| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel |
+| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel    |
+| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Tristan Carel(?)                                |
 
 The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/page/10).
 
