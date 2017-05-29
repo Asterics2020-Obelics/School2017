@@ -124,6 +124,14 @@ Some other Python related tools that you might consider installing:
   free copy of the Professional Edition under [Student
   License](https://www.jetbrains.com/student/))
 
+# Cartesius farm <a name="cartesius"></a>
+
+For the parallel and GPU sessions, we will use the [Cartesius machines](https://userinfo.surfsara.nl/systems/cartesius) that are generously made available by SURFsara for the OBELICS school. You will need to connect to them through the ssh protocol (natively installed on Linux and Mac).
+
+For Windows users, we recommend these tools to connect via ssh:
+- [Putty](http://www.putty.org/) & [Winscp](https://winscp.net)
+- Or, on Windows 10: use the [native bash environment](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
+
 # Tutors <a name="tutors"></a>
 
 Here is the list of tutors for the hands-on sessions. Four (or more) are needed for each session (except for GPU and parallel which are parallel sessions).
@@ -135,7 +143,7 @@ Here is the list of tutors for the hands-on sessions. Four (or more) are needed 
 | Astropy                | Axel Donath, Johannes King | Karl Kosack                                                 |
 | Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel |
 | Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel    |
-| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Tristan Carel(?)                                |
+| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel(?)           |
 
 The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/page/10).
 
