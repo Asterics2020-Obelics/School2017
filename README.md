@@ -52,14 +52,14 @@ the linux `Anaconda` installer for Python 3.6.
 		to PATH in your /home/chotard/.bashrc ? [yes|no]
 		[no] >>> no
 
-- If you haven't cloned this repository, download the `anaconda_linux_setup.sh` script:
+- If you haven't cloned this repository, download the `anaconda_setup.sh` script:
 
-		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_linux_setup.sh
+		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
 
-- Run the `anaconda_linux_setup.sh` script to set up the correct PATH and
+- Run the `anaconda_setup.sh` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
-		source anaconda_linux_setup.sh
+		source anaconda_setup.sh
 
 You can either run this command each time you need to use `Anaconda`,
 or add its content to your `.bashrc` (or equivalent) to set it up at
@@ -83,14 +83,14 @@ the Mac `Anaconda` installer for Python 3.6.
 		to PATH in your /home/chotard/.bashrc ? [yes|no]
 		[no] >>> no
 
-- If you haven't cloned this repository, first get the `anaconda_mac_setup.sh` script:
+- If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
 
-		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_mac_setup.sh
+		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
 
-- Run the `anaconda_mac_setup.sh` script to set up the correct PATH and
+- Run the `anaconda_setup.sh` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
-		source anaconda_mac_setup.sh
+		source anaconda_setup.sh
 
 You can either run this command each time you need to use `Anaconda`,
 or add its content to your `.bashrc` (or equivalent) to set it up at
