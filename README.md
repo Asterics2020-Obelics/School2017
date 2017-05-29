@@ -15,7 +15,7 @@ table is available at the following
     - [Mac](#mac)
     - [Windows](#windows)
     - [Library requirements](#python-req)
-- [Other requirements](#python-req)
+- [Other requirements](#other-req)
 - [Tutors](#tutors)
 - [Help](#help)
 
@@ -115,7 +115,7 @@ recommand using `pip`.
 
 	  pip install -r requirements.txt
 
-# Other requirements <a name="python-req"></a>
+# Other requirements <a name="other-req"></a>
 
 Some other Python related tools that you might consider installing:
 
