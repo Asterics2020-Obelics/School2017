@@ -16,6 +16,7 @@ table is available at the following
     - [Windows](#windows)
     - [Library requirements](#python-req)
 - [Other requirements](#other-req)
+- [Cartesius machines](#cartesius)
 - [Tutors](#tutors)
 - [Help](#help)
 
@@ -124,7 +125,7 @@ Some other Python related tools that you might consider installing:
   free copy of the Professional Edition under [Student
   License](https://www.jetbrains.com/student/))
 
-# Cartesius farm <a name="cartesius"></a>
+# Cartesius machines <a name="cartesius"></a>
 
 For the parallel and GPU sessions, we will use the [Cartesius machines](https://userinfo.surfsara.nl/systems/cartesius) that are generously made available by SURFsara for the OBELICS school. You will need to connect to them through the ssh protocol (natively installed on Linux and Mac).
 
