@@ -152,8 +152,9 @@ The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/
 # Help
 
 Please create a [new
-issue](https://github.com/Asterics2020-Obelics/School2017/issues) for
-each question you may have before or during the school about software
-install and/or about one of the classes. Of course, you should first
-check the existing list of issues to see if your question has already
-been asked and answered before creating a new one.
+issue](https://github.com/Asterics2020-Obelics/School2017/issues) (you
+will need a github account) for each question you may have before or
+during the school about software install and/or about one of the
+classes. Of course, you should first check the existing list of issues
+to see if your question has already been asked and answered before
+creating a new one.
