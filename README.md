@@ -7,7 +7,8 @@ programming for astrophysics and astroparticle physics". The time
 table is available at the following
 [location](https://indico.in2p3.fr/event/14227/timetable/#20170606).
 
-**Table on content**
+# Table on content
+
 - [Local copy of this repository](#repo)
 - [Recommendation for Python install](#python)
     - [Linux](#linux)
@@ -32,7 +33,7 @@ during the school while attending the hands-on.
 You must install Python 3.6 and a few python libraries. The
 recommended way to do so is to use
 [Anaconda](https://www.continuum.io/downloads). The procedures
-described bellow will help you install what is needed for the school. Alternative install instructions can be found [here](https://www.continuum.io/downloads#linux))
+described bellow will help you install what is needed for the school.
 
 ## Linux <a name="linux"></a>
 
@@ -43,13 +44,14 @@ the linux `Anaconda` installer for Python 3.6.
 
 		bash Anaconda3-4.3.1-Linux-x86_64.sh
 
-- Answer `no` to the following question if you do not want to mess up your previous installs of python.
+- Answer `no` to the following question if you do not want to mess up
+  your previous installs of python.
 	
-	Do you wish the installer to prepend the Anaconda3 install location
-	to PATH in your /home/chotard/.bashrc ? [yes|no]
-	[no] >>> no
+		Do you wish the installer to prepend the Anaconda3 install location
+		to PATH in your /home/chotard/.bashrc ? [yes|no]
+		[no] >>> no
 
-- If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
+- If you haven't cloned this repository, download the `anaconda_linux_setup.sh` script:
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_linux_setup.sh
 
@@ -59,7 +61,7 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 		source anaconda_linux_setup.sh
 
 You can either run this command each time you need to use `Anaconda`,
-or add these lines to your `.bashrc` (or equivalent) to set it up at
+or add its content to your `.bashrc` (or equivalent) to set it up at
 the opening of a new terminal.
 
 - See next section for extra python libraries requirements (if any).
@@ -73,11 +75,12 @@ the Mac `Anaconda` installer for Python 3.6.
 
 		bash Anaconda3-4.3.1-MacOSX-x86_64.sh
 
-- Answer `no` to the following question if you do not want to mess up your previous installs of python.
+- Answer `no` to the following question if you do not want to mess up
+  your previous installs of python.
 	
-	Do you wish the installer to prepend the Anaconda3 install location
-	to PATH in your /home/chotard/.bashrc ? [yes|no]
-	[no] >>> no
+		Do you wish the installer to prepend the Anaconda3 install location
+		to PATH in your /home/chotard/.bashrc ? [yes|no]
+		[no] >>> no
 
 - If you haven't cloned this repository, first get the `anaconda_mac_setup.sh` script:
 
@@ -89,7 +92,7 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 		source anaconda_mac_setup.sh
 
 You can either run this command each time you need to use `Anaconda`,
-or add these lines to your `.bashrc` (or equivalent) to set it up at
+or add its content to your `.bashrc` (or equivalent) to set it up at
 the opening of a new terminal.
 
 - See next section for extra python libraries requirements (if any).
@@ -116,7 +119,10 @@ recommand using `pip`.
 
 Some other Python related tools that you might consider installing:
 
-- pycharm (Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/))
+- pycharm (Free Community Edition: [Download
+  PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a
+  free copy of the Professional Edition under [Student
+  License](https://www.jetbrains.com/student/))
 
 # Tutors <a name="tutors"></a>
 
@@ -139,4 +145,6 @@ The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/
 Please create a [new
 issue](https://github.com/Asterics2020-Obelics/School2017/issues) for
 each question you may have before or during the school about software
-install and/or about one of the classes. Of course, you should first check the existing list of issues to see if your question has already been asked and answered before creating a new one.
+install and/or about one of the classes. Of course, you should first
+check the existing list of issues to see if your question has already
+been asked and answered before creating a new one.
