@@ -1,5 +1,5 @@
-/* mod_math.i */
-%module mod_math
+/* modmath.i */
+%module modmath
 
 %{
   #include "operation.h"
