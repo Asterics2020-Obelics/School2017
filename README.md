@@ -38,6 +38,12 @@ described bellow will help you install what is needed for the school.
 
 ## Linux <a name="linux"></a>
 
+- Install required distribution packages :
+    - Ubuntu: `sudo apt-get install -y git bzip2 wget`
+    - Fedora 25: `sudo dnf install -y git wget bzip2`
+    - CERN Scientific Linux 6: `sudo yum install -y git tar bzip2 wget`
+    - CERN CentOS 7: `sudo yum install -y git bzip2 wget`
+
 - [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
 the linux `Anaconda` installer for Python 3.6.
 
