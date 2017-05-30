@@ -31,72 +31,78 @@ during the school while attending the hands-on.
 
 # Recommendation for Python install <a name="python"></a>
 
-You must install Python 3.6 and a few python libraries. The
+You must install Python 3.6 and a few Python libraries. The
 recommended way to do so is to use
 [Anaconda](https://www.continuum.io/downloads). The procedures
 described bellow will help you install what is needed for the school.
 
 ## Linux <a name="linux"></a>
 
-- [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
-the linux `Anaconda` installer for Python 3.6.
+1. Install required distribution packages :
+    - Ubuntu: `sudo apt-get install -y git bzip2 wget`
+    - Fedora 25: `sudo dnf install -y git wget bzip2`
+    - CERN Scientific Linux 6: `sudo yum install -y git tar bzip2 wget`
+    - CERN CentOS 7: `sudo yum install -y git bzip2 wget`
 
-- Run the following command line:
+1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
+the Linux `Anaconda` installer for Python 3.6.
+
+1. Run the following command line:
 
 		bash Anaconda3-4.3.1-Linux-x86_64.sh
 
-- Answer `no` to the following question if you do not want to mess up
+1. Answer `no` to the following question if you do not want to mess up
   your previous installs of python.
 	
 		Do you wish the installer to prepend the Anaconda3 install location
 		to PATH in your /home/chotard/.bashrc ? [yes|no]
 		[no] >>> no
 
-- If you haven't cloned this repository, download the `anaconda_setup.sh` script:
+1. If you haven't cloned this repository, download the `anaconda_setup.sh` script:
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
 
-- Run the `anaconda_setup.sh` script to set up the correct PATH and
+1. Run the `anaconda_setup.sh` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
 		source anaconda_setup.sh
 
-You can either run this command each time you need to use `Anaconda`,
-or add its content to your `.bashrc` (or equivalent) to set it up at
-the opening of a new terminal.
+    You can either run this command each time you need to use `Anaconda`,
+    or add its content to your `.bashrc` (or equivalent) to set it up at
+    the opening of a new terminal.
 
-- See next section for extra python libraries requirements (if any).
+1. See next section for extra Python libraries requirements (if any).
 
 ## Mac <a name="mac"></a>
 
-- [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.sh)
+1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.sh)
 the Mac `Anaconda` installer for Python 3.6.
 
-- Run the following command line:
+1. Run the following command line:
 
 		bash Anaconda3-4.3.1-MacOSX-x86_64.sh
 
-- Answer `no` to the following question if you do not want to mess up
+1. Answer `no` to the following question if you do not want to mess up
   your previous installs of python.
 	
 		Do you wish the installer to prepend the Anaconda3 install location
 		to PATH in your /home/chotard/.bashrc ? [yes|no]
 		[no] >>> no
 
-- If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
+1. If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
 
-- Run the `anaconda_setup.sh` script to set up the correct PATH and
+1. Run the `anaconda_setup.sh` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
 		source anaconda_setup.sh
 
-You can either run this command each time you need to use `Anaconda`,
-or add its content to your `.bashrc` (or equivalent) to set it up at
-the opening of a new terminal.
+    You can either run this command each time you need to use `Anaconda`,
+    or add its content to your `.bashrc` (or equivalent) to set it up at
+    the opening of a new terminal.
 
-- See next section for extra python libraries requirements (if any).
+1. See next section for extra Python libraries requirements (if any).
 
 ## Windows <a name="windows"></a>
 
@@ -106,13 +112,13 @@ Instruction for Windows can be found
 ## Library requirements <a name="python-req"></a>
 
 All the required libraries come with the `Anaconda` install described
-above. If you have followed the previous steps to install python, you
+above. If you have followed the previous steps to install Python, you
 can skip this section.
 
 If you choose an other way to install Python 3.6 than the one
 recommended above, you must install manually the Python libraries
 listed in the [requirements.txt](requirements.txt) file. To do so, we
-recommand using `pip`.
+recommend using `pip`.
 
 	  pip install -r requirements.txt
 
@@ -141,7 +147,7 @@ Here is the list of tutors for the hands-on sessions. Four (or more) are needed 
 | ---------------------- |----------------------------|-------------------------------------------------------------|
 | Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel    |
 | Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack                               |
-| Astropy                | Axel Donath, Johannes King | Karl Kosack                                                 |
+| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl                                  |
 | Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel |
 | Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel    |
 | GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel(?)           |
