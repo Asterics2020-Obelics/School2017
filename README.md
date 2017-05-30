@@ -147,7 +147,7 @@ Here is the list of tutors for the hands-on sessions. Four (or more) are needed 
 | ---------------------- |----------------------------|-------------------------------------------------------------|
 | Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel    |
 | Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack                               |
-| Astropy                | Axel Donath, Johannes King | Karl Kosack                                                 |
+| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl                                  |
 | Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel |
 | Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel    |
 | GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel(?)           |
