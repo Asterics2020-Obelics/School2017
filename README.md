@@ -31,7 +31,7 @@ during the school while attending the hands-on.
 
 # Recommendation for Python install <a name="python"></a>
 
-You must install Python 3.6 and a few python libraries. The
+You must install Python 3.6 and a few Python libraries. The
 recommended way to do so is to use
 [Anaconda](https://www.continuum.io/downloads). The procedures
 described bellow will help you install what is needed for the school.
@@ -45,7 +45,7 @@ described bellow will help you install what is needed for the school.
     - CERN CentOS 7: `sudo yum install -y git bzip2 wget`
 
 1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
-the linux `Anaconda` installer for Python 3.6.
+the Linux `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
 
@@ -71,7 +71,7 @@ PYTHONPATH enabling the use of your `Anaconda` install.
     or add its content to your `.bashrc` (or equivalent) to set it up at
     the opening of a new terminal.
 
-1. See next section for extra python libraries requirements (if any).
+1. See next section for extra Python libraries requirements (if any).
 
 ## Mac <a name="mac"></a>
 
@@ -102,7 +102,7 @@ PYTHONPATH enabling the use of your `Anaconda` install.
     or add its content to your `.bashrc` (or equivalent) to set it up at
     the opening of a new terminal.
 
-1. See next section for extra python libraries requirements (if any).
+1. See next section for extra Python libraries requirements (if any).
 
 ## Windows <a name="windows"></a>
 
@@ -112,13 +112,13 @@ Instruction for Windows can be found
 ## Library requirements <a name="python-req"></a>
 
 All the required libraries come with the `Anaconda` install described
-above. If you have followed the previous steps to install python, you
+above. If you have followed the previous steps to install Python, you
 can skip this section.
 
 If you choose an other way to install Python 3.6 than the one
 recommended above, you must install manually the Python libraries
 listed in the [requirements.txt](requirements.txt) file. To do so, we
-recommand using `pip`.
+recommend using `pip`.
 
 	  pip install -r requirements.txt
 
