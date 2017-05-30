@@ -10,5 +10,5 @@ numba
 matplotlib
 cython
 h5py
-pytables
+tables
 scikit-learn
