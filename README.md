@@ -108,9 +108,9 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 ## Windows <a name="windows"></a>
 
 Instruction for Windows can be found
-[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run "Anaconda navigator". To run Jupyter, on the main page of the Anaconda navigator, click on "Launch" on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking "new -> Python 3". 
+[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`. 
 
-You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch "Git GUI" or "Git bash" to get started. 
+You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch `Git GUI` or `Git bash` to get started. 
 
 ## Library requirements <a name="python-req"></a>
 
@@ -127,7 +127,11 @@ recommend using `pip`.
 
 # Jupyter <a name="jupyter"></a>
 
-To launch a Jupyter notebook, simply run the command "jupyter notebook". On Windows, see in the [above](#windows).
+To launch a Jupyter notebook, simply run the following command:
+
+`jupyter notebook`
+
+On Windows, see in the [above](#windows).
 
 # Other requirements <a name="other-req"></a>
 
