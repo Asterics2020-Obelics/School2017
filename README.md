@@ -59,21 +59,19 @@ the Linux `Anaconda` installer for Python 3.6.
 		to PATH in your /home/chotard/.bashrc ? [yes|no]
 		[no] >>> no
 
-1. If you haven't cloned this repository, download the
-`anaconda_setup` script:
-
-    - `sh`
+1. If you haven't cloned this repository, download one of the
+`anaconda_setup` script (`sh` or `csh` depending on your shell):
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
-
-    - `csh`
-
+		or
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.csh
 
 1. Run the `anaconda_setup` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
 		source anaconda_setup.sh
+		or
+		source anaconda_setup.csh
 
     You can either run this command each time you need to use `Anaconda`,
     or add its content to your `.bashrc` (or equivalent) to set it up at
