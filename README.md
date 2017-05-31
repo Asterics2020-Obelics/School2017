@@ -9,7 +9,7 @@ table is available at the following
 
 # Table on content
 
-- [Local copy of this repository](#repo)
+- [Get a copy of this repository with `git`](#repo)
 - [Recommendation for Python install](#python)
     - [Linux](#linux)
     - [Mac](#mac)
@@ -18,17 +18,18 @@ table is available at the following
 - [Jupyter](#jupyter)    
 - [Other requirements](#other-req)
 - [Cartesius machines](#cartesius)
+- [Chat rooms](#chat)
 - [Tutors](#tutors)
 - [Help](#help)
 
-# Local copy of this repository <a name="repo"></a>
+# Get a copy of this repository with `git` <a name="repo"></a>
 
 Clone this repository on your personal computer.
 
       git clone https://github.com/Asterics2020-Obelics/School2017.git
 
 You will need it before the school to install the different tools, and
-during the school while attending the hands-on.
+during the school while attending the hands-on. For Windows, see [below](#windows).
 
 # Recommendation for Python install <a name="python"></a>
 
@@ -59,14 +60,25 @@ the Linux `Anaconda` installer for Python 3.6.
 		to PATH in your /home/chotard/.bashrc ? [yes|no]
 		[no] >>> no
 
-1. If you haven't cloned this repository, download the `anaconda_setup.sh` script:
+1. If you haven't cloned this repository, download one of the
+`anaconda_setup` script (`sh` or `csh` depending on your shell):
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
+		or
+		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.csh
 
-1. Run the `anaconda_setup.sh` script to set up the correct PATH and
+1. If you have installed `anaconda` in a different directory than the default one suggested by the `anaconda` installer (your home directory), edit the first line of the `anaconda_setup` script with your selected path.
+
+		ANACONDA=YOURSELECTEDPATH
+		or
+		setenv ANACONDA YOURSELECTEDPATH
+
+1. Run the `anaconda_setup` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
 		source anaconda_setup.sh
+		or
+		source anaconda_setup.csh
 
     You can either run this command each time you need to use `Anaconda`,
     or add its content to your `.bashrc` (or equivalent) to set it up at
@@ -93,6 +105,10 @@ the Mac `Anaconda` installer for Python 3.6.
 1. If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
+
+1. If you have installed `anaconda` in a different directory than the default one suggested by the `anaconda` installer (your home directory), edit the first line of the `anaconda_setup` script with your selected path.
+
+		ANACONDA=YOURSELECTEDPATH
 
 1. Run the `anaconda_setup.sh` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
@@ -146,6 +162,12 @@ For the parallel and GPU sessions, we will use the [Cartesius machines](https://
 For Windows users, we recommend these tools to connect via ssh:
 - [Putty](http://www.putty.org/) & [Winscp](https://winscp.net)
 - Or, on Windows 10: use the [native bash environment](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
+
+# Chat rooms <a name="chat"></a>
+
+[Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017) have been created for each hands-on session and group. If you need to talk to each other during the session, share information, ask questions and get fast answer in case all the tutors are busy, you can use the corresponding chat rooms to do so. These chat rooms can also be used by the different tutors to give information or advices before or during the hands-on sessions.
+
+Be aware that you will need to be connected to use these chat rooms, prefenrentially using your github account. You can also start one-to-one chat rooms.
 
 # Tutors <a name="tutors"></a>
 

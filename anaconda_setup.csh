@@ -1,7 +1,7 @@
 # If you have choosen a different path than your home directory for
 # your anaconda install, change the following line
-ANACONDA=$HOME
+setenv ANACONDA $HOME
 
-export PATH=$ANACONDA/anaconda3/bin:$PATH
-export PYTHONPATH=$ANACONDA/anaconda3/lib
+setenv PATH $ANACONDA/anaconda3/bin:$PATH
+setenv PYTHONPATH $ANACONDA/anaconda3/lib
 
