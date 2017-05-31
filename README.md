@@ -18,6 +18,7 @@ table is available at the following
 - [Jupyter](#jupyter)    
 - [Other requirements](#other-req)
 - [Cartesius machines](#cartesius)
+- [Chat rooms](#chat)
 - [Tutors](#tutors)
 - [Help](#help)
 
@@ -161,6 +162,12 @@ For the parallel and GPU sessions, we will use the [Cartesius machines](https://
 For Windows users, we recommend these tools to connect via ssh:
 - [Putty](http://www.putty.org/) & [Winscp](https://winscp.net)
 - Or, on Windows 10: use the [native bash environment](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
+
+# Chat rooms <a name="chat"></a>
+
+[Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017) have been created for each hands-on session and group. If you need to talk to each other during the session, share information, ask questions and get fast answer in case all the tutors are busy, you can use the corresponding chat rooms to do so. These chat rooms can also be used by the different tutors to give information or advices before or during the hands-on sessions.
+
+Be aware that you will need to be connected to use these chat rooms, prefenrentially using your github account. You can also start one-to-one chat rooms.
 
 # Tutors <a name="tutors"></a>
 
