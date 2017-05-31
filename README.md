@@ -15,6 +15,7 @@ table is available at the following
     - [Mac](#mac)
     - [Windows](#windows)
     - [Library requirements](#python-req)
+- [Jupyter](#jupyter)    
 - [Other requirements](#other-req)
 - [Cartesius machines](#cartesius)
 - [Tutors](#tutors)
@@ -123,6 +124,10 @@ listed in the [requirements.txt](requirements.txt) file. To do so, we
 recommend using `pip`.
 
 	  pip install -r requirements.txt
+
+# Jupyter <a name="jupyter"></a>
+
+To launch a Jupyter notebook, simply run the command "jupyter notebook". On Windows, see in the [above](#windows).
 
 # Other requirements <a name="other-req"></a>
 
