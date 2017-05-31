@@ -28,7 +28,7 @@ Clone this repository on your personal computer.
       git clone https://github.com/Asterics2020-Obelics/School2017.git
 
 You will need it before the school to install the different tools, and
-during the school while attending the hands-on.
+during the school while attending the hands-on. For Windows, see [below](#windows).
 
 # Recommendation for Python install <a name="python"></a>
 
