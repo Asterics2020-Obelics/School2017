@@ -69,6 +69,8 @@ the Linux `Anaconda` installer for Python 3.6.
 1. If you have installed `anaconda` in a different directory than the default one suggested by the `anaconda` installer (your home directory), edit the first line of the `anaconda_setup` script with your selected path.
 
 		ANACONDA=YOURSELECTEDPATH
+		or
+		setenv ANACONDA YOURSELECTEDPATH
 
 1. Run the `anaconda_setup` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
