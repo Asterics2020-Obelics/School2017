@@ -107,7 +107,9 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 ## Windows <a name="windows"></a>
 
 Instruction for Windows can be found
-[here](https://www.continuum.io/downloads#windows). (Not tested yet).
+[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run "Anaconda navigator". To run Jupyter, on the main page of the Anaconda navigator, click on "Launch" on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking "new -> Python 3". 
+
+You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch "Git GUI" or "Git bash" to get started. 
 
 ## Library requirements <a name="python-req"></a>
 
@@ -126,10 +128,7 @@ recommend using `pip`.
 
 Some other Python related tools that you might consider installing:
 
-- pycharm (Free Community Edition: [Download
-  PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a
-  free copy of the Professional Edition under [Student
-  License](https://www.jetbrains.com/student/))
+- We strongly recommend to use pycharm, especially for the "Debugging & profiling" course. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
 
 # Cartesius machines <a name="cartesius"></a>
 
@@ -147,10 +146,10 @@ Here is the list of tutors for the hands-on sessions. Four (or more) are needed 
 | ---------------------- |----------------------------|-------------------------------------------------------------|
 | Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel    |
 | Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack                               |
-| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl                                  |
+| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl, Tim Jeness (?)                  |
 | Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel |
 | Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel    |
-| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel(?)           |
+| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel (?)          |
 
 The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/page/10).
 
