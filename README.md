@@ -66,6 +66,10 @@ the Linux `Anaconda` installer for Python 3.6.
 		or
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.csh
 
+1. If you have installed `anaconda` in a different directory than the default one suggested by the `anaconda` installer (your home directory), edit the first line of the `anaconda_setup` script with your selected path.
+
+		ANACONDA=YOURSELECTEDPATH
+
 1. Run the `anaconda_setup` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
 
@@ -98,6 +102,10 @@ the Mac `Anaconda` installer for Python 3.6.
 1. If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
 
 		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
+
+1. If you have installed `anaconda` in a different directory than the default one suggested by the `anaconda` installer (your home directory), edit the first line of the `anaconda_setup` script with your selected path.
+
+		ANACONDA=YOURSELECTEDPATH
 
 1. Run the `anaconda_setup.sh` script to set up the correct PATH and
 PYTHONPATH enabling the use of your `Anaconda` install.
