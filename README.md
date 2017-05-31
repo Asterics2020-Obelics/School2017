@@ -9,7 +9,7 @@ table is available at the following
 
 # Table on content
 
-- [Local copy of this repository](#repo)
+- [Get a copy of this repository with `git`](#repo)
 - [Recommendation for Python install](#python)
     - [Linux](#linux)
     - [Mac](#mac)
@@ -21,7 +21,7 @@ table is available at the following
 - [Tutors](#tutors)
 - [Help](#help)
 
-# Local copy of this repository <a name="repo"></a>
+# Get a copy of this repository with `git` <a name="repo"></a>
 
 Clone this repository on your personal computer.
 
