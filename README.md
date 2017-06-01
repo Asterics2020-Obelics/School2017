@@ -9,6 +9,7 @@ table is available at the following
 
 # Table on content
 
+- [Important links](#links)
 - [Get a copy of this repository with `git`](#repo)
 - [Recommendation for Python install](#python)
     - [Linux](#linux)
@@ -16,11 +17,16 @@ table is available at the following
     - [Windows](#windows)
     - [Library requirements](#python-req)
 - [Jupyter](#jupyter)    
-- [Other requirements](#other-req)
+- [IDE: PyCharm](#pycharm)
 - [Cartesius machines](#cartesius)
 - [Chat rooms](#chat)
 - [Tutors](#tutors)
 - [Help](#help)
+
+# Important links <a name="links"></a>
+
+- [Local copies](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok) of needed software, like Anaconda and PyCharm
+- [Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017)
 
 # Get a copy of this repository with `git` <a name="repo"></a>
 
@@ -35,8 +41,7 @@ during the school while attending the hands-on. For Windows, see [below](#window
 
 You must install Python 3.6 and a few Python libraries. The
 recommended way to do so is to use
-[Anaconda](https://www.continuum.io/downloads). The procedures
-described bellow will help you install what is needed for the school.
+[Anaconda](https://www.continuum.io/downloads). The procedures described bellow will help you install what is needed for the school.
 
 ## Linux <a name="linux"></a>
 
@@ -46,7 +51,7 @@ described bellow will help you install what is needed for the school.
     - CERN Scientific Linux 6: `sudo yum install -y git tar bzip2 wget`
     - CERN CentOS 7: `sudo yum install -y git bzip2 wget`
 
-1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh)
+1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh) ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok))
 the Linux `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
@@ -88,7 +93,7 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 
 ## Mac <a name="mac"></a>
 
-1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.sh)
+1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.sh) ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok))
 the Mac `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
@@ -124,7 +129,7 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 ## Windows <a name="windows"></a>
 
 Instruction for Windows can be found
-[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`. 
+[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok)). Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`. 
 
 You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch `Git GUI` or `Git bash` to get started. 
 
@@ -149,11 +154,9 @@ To launch a Jupyter notebook, simply run the following command:
 
 On Windows, see in the [above](#windows).
 
-# Other requirements <a name="other-req"></a>
+# IDE: PyCharm <a name="pycharm"></a>
 
-Some other Python related tools that you might consider installing:
-
-- We strongly recommend to use pycharm, especially for the "Debugging & profiling" course. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
+We strongly recommend to use pycharm, especially for the "Debugging & profiling" course. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok)) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
 
 # Cartesius machines <a name="cartesius"></a>
 
@@ -167,7 +170,7 @@ For Windows users, we recommend these tools to connect via ssh:
 
 [Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017) have been created for each hands-on session and group. If you need to talk to each other during the session, share information, ask questions and get fast answer in case all the tutors are busy, you can use the corresponding chat rooms to do so. These chat rooms can also be used by the different tutors to give information or advices before or during the hands-on sessions.
 
-Be aware that you will need to be connected to use these chat rooms, prefenrentially using your github account. You can also start one-to-one chat rooms.
+Be aware that you will need to be connected to use these chat rooms, preferentially using your github account. You can also start one-to-one chat rooms.
 
 # Tutors <a name="tutors"></a>
 
