@@ -25,7 +25,8 @@ table is available at the following
 
 # Important links <a name="links"></a>
 
-[Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017)
+- [Local copies](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok) of needed software, like Anaconda and PyCharm
+- [Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017)
 
 # Get a copy of this repository with `git` <a name="repo"></a>
 
