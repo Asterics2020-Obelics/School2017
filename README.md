@@ -166,6 +166,15 @@ For Windows users, we recommend these tools to connect via ssh:
 - [Putty](http://www.putty.org/) & [Winscp](https://winscp.net)
 - Or, on Windows 10: use the [native bash environment](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
 
+To connect to Cartesius, please open a terminal and use the following command:
+    `ssh -XY accntXXX@cartesius.surfsara.nl`
+where XXX is the account number you received via email. Type in the password you received together with your login name and press enter.
+NOTE that, the cursor won't move while tying in the password, this is normal, so just keep typing.
+
+The account is made available for the school and will be valid till 30th of June. If you would like to connect to Cartesius from outside of LAPP, please use the following command:
+    `ssh accntXXX@doornode.surfsara.nl`
+Type in your password and select system Cartesius.
+   
 # Chat rooms <a name="chat"></a>
 
 [Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017) have been created for each hands-on session and group. If you need to talk to each other during the session, share information, ask questions and get fast answer in case all the tutors are busy, you can use the corresponding chat rooms to do so. These chat rooms can also be used by the different tutors to give information or advices before or during the hands-on sessions.
