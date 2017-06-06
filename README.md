@@ -27,6 +27,7 @@ table is available at the following
 
 - [Local copies](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok) of needed software, like Anaconda and PyCharm
 - [Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017)
+- [Cartesius access form](https://docs.google.com/forms/d/e/1FAIpQLSc9MMnpX6NYkK0CZuYMmd_O8YssO18mK9rEcfQwz-8-7Xy5Fw/alreadyresponded?c=0&w=1)
 
 # Get a copy of this repository with `git` <a name="repo"></a>
 
@@ -168,14 +169,14 @@ For Windows users, we recommend these tools to connect via ssh:
 
 To connect to Cartesius, please open a terminal and use the following command:
 
-    `ssh -XY accntXXX@cartesius.surfsara.nl`
+    ssh -XY accntXXX@cartesius.surfsara.nl
 
 Where XXX is the account number you received via email. Type in the password you received together with your login name and press enter.
 NOTE that, the cursor won't move while tying in the password, this is normal, so just keep typing.
 
 The account is made available for the school and will be valid till 30th of June. If you would like to connect to Cartesius from outside of LAPP, please use the following command:
 
-    `ssh accntXXX@doornode.surfsara.nl`
+    ssh accntXXX@doornode.surfsara.nl
 
 Type in your password and select system Cartesius.
    
@@ -189,14 +190,14 @@ Be aware that you will need to be connected to use these chat rooms, preferentia
 
 Here is the list of tutors for the hands-on sessions. Four (or more) are needed for each session (except for GPU and parallel which are parallel sessions).
 
-| Hands-on               | Main tutor(s)              | Other tutors                                                |
-| ---------------------- |----------------------------|-------------------------------------------------------------|
-| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel    |
-| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack, Johannes King                |
-| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl, Tim Jeness (?)                  |
-| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel |
-| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel    |
-| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel (?)          |
+| Hands-on               | Main tutor(s)              | Other tutors                                                         |
+| ---------------------- |----------------------------|----------------------------------------------------------------------|
+| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel, N. Chotard |
+| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack, Johannes King, N. Chotard             |
+| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl, Tim Jeness, N. Chotard                   |
+| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel          |
+| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel             |
+| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel (?)                   |
 
 The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/page/10).
 
