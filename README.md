@@ -189,14 +189,14 @@ Be aware that you will need to be connected to use these chat rooms, preferentia
 
 Here is the list of tutors for the hands-on sessions. Four (or more) are needed for each session (except for GPU and parallel which are parallel sessions).
 
-| Hands-on               | Main tutor(s)              | Other tutors                                                |
-| ---------------------- |----------------------------|-------------------------------------------------------------|
-| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel    |
-| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack, Johannes King                |
-| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl, Tim Jeness (?)                  |
-| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel |
-| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel    |
-| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel (?)          |
+| Hands-on               | Main tutor(s)              | Other tutors                                                         |
+| ---------------------- |----------------------------|----------------------------------------------------------------------|
+| Numpy                  | Tamas Gal                  | Axel Donath, Johannes King, Pierre Aubert, Tristan Carel, N. Chotard |
+| Pandas                 | Tamas Gal                  | Damian Podareanu, Karl Kosack, Johannes King, N. Chotard             |
+| Astropy                | Axel Donath, Johannes King | Karl Kosack, Hendrik Heinl, Tim Jeness, N. Chotard                   |
+| Profiling & Debugging  | Karl Kosack                | Axel Donath, Zheng Meyer-Zhao, Pierre Aubert, Tristan Carel          |
+| Parallel Programming   | Damian Podareanu           | Tamas Gal, Pierre Aubert, Jean Jacquemier, Tristan Carel             |
+| GPU Programming        | Valeriu Codreanu           | Pierre Aubert, Zheng Meyer-Zhao, Tristan Carel (?)                   |
 
 The full list of tutors is available [here](https://indico.in2p3.fr/event/14227/page/10).
 
