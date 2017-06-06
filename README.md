@@ -27,6 +27,7 @@ table is available at the following
 
 - [Local copies](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok) of needed software, like Anaconda and PyCharm
 - [Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017)
+- [Cartesius access form](https://docs.google.com/forms/d/e/1FAIpQLSc9MMnpX6NYkK0CZuYMmd_O8YssO18mK9rEcfQwz-8-7Xy5Fw/alreadyresponded?c=0&w=1)
 
 # Get a copy of this repository with `git` <a name="repo"></a>
 
