@@ -3,7 +3,10 @@
 #SBATCH -N 1
 #SBATCH -p gpu
 
-PORT=5010
+#PORT=5010
+
+PORT=$(whoami | cut -c6-8)
+PORT="5$PORT"
 
 module load python/2.7.11
 module load cuda/7.5.18
