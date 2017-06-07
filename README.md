@@ -167,6 +167,8 @@ For Windows users, we recommend these tools to connect via ssh:
 - [Putty](http://www.putty.org/) & [Winscp](https://winscp.net)
 - Or, on Windows 10: use the [native bash environment](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
 
+## Connect to Cartesius
+
 To connect to Cartesius, please open a terminal and use the following command:
 
     ssh -XY accntXXX@cartesius.surfsara.nl
@@ -179,6 +181,30 @@ The account is made available for the school and will be valid till 30th of June
     ssh accntXXX@doornode.surfsara.nl
 
 Type in your password and select system Cartesius.
+
+## Preparation for Hands-on session of GPU programming
+
+Login to Cartesius, clone the git repository and generate a key pair.
+
+    ssh -XY accntXXX@cartesius.surfsara.nl
+    git clone https://github.com/Asterics2020-Obelics/School2017.git
+    ssh-keygen -t rsa
+
+Press Enter twice. A key pair will be generated for you in directory .ssh. Copy the contents of the public key to file authorized_keys:
+
+    cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+
+## Submit a job to Cartesius
+When the hands-on session starts, submit the following job to Cartesius:
+
+    cd School2017/gpu_programming
+    sbatch job.jupyter.gpu
+
+Open a new terminal and do the following:
+
+    ssh -L5XXX:localhost:5XXX vis.cartesius.surfsara.nl
+
+Note that, you need to replace XXX with the three digits of your login account. 
    
 # Chat rooms <a name="chat"></a>
 
