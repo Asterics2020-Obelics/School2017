@@ -1,22 +1,32 @@
 #include <Python.h>
+#include "hello.h"
 
-static PyObject*
-say_hello(PyObject* self, PyObject* args)
+static PyObject * hello_wrapper(PyObject * self, PyObject * args)
 {
-    const char* name;
+  char * input;
+  char * result;
+  PyObject * ret;
 
-    if (!PyArg_ParseTuple(args, "s", &name))
-        return NULL;
+  // parse arguments
+  if (!PyArg_ParseTuple(args, "s", &input)) {
+    return NULL;
+  }
 
-    printf("Hello %s!\n", name);
+  // run the actual function
+  result = hello(input);
 
-    Py_RETURN_NONE;
+  // build the resulting string into a Python object.
+  ret = PyBytes_FromString(result);
+  free(result);
+
+  return ret;
 }
 
 
+
 static PyMethodDef SpamMethods[] = {
-    {"say_hello", say_hello, METH_VARARGS,
-     "Execute a shell command."},
+    {"say_hello", hello_wrapper, METH_VARARGS,
+     "Say hello"},
     {NULL, NULL, 0, NULL}        /* Sentinel */
 };
 
