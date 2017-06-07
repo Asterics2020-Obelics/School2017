@@ -204,7 +204,8 @@ Open a new terminal and do the following:
 
     ssh -L5XXX:localhost:5XXX vis.cartesius.surfsara.nl
 
-Note that, you need to replace XXX with the three digits of your login account. 
+Note that, you need to replace XXX with the three digits of your login account.
+Now you can open a new tab in your browser and go to localhost:5XXX (replace XXX with the three digits of your own account).
    
 # Chat rooms <a name="chat"></a>
 
