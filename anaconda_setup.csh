@@ -3,5 +3,5 @@
 setenv ANACONDA $HOME
 
 setenv PATH $ANACONDA/anaconda3/bin:$PATH
-
+setenv PYTHONPATH 
 

@@ -3,5 +3,5 @@
 ANACONDA=$HOME
 
 export PATH=$ANACONDA/anaconda3/bin:$PATH
-
+export PYTHONPATH=
 
