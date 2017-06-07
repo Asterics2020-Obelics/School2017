@@ -194,6 +194,8 @@ Login to Cartesius, clone the git repository and generate a key pair.
 Press Enter three times. A key pair will be generated for you in directory .ssh. Copy the contents of the public key to file authorized_keys:
 
     cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+    chmod 700 ~/.ssh
+    chmod 600 ~/.ssh/authorized_keys
 
 ## Submit a job to Cartesius
 When the hands-on session starts, submit the following job to Cartesius:
