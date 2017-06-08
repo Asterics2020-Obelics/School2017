@@ -171,7 +171,7 @@ For Windows users, we recommend these tools to connect via ssh:
 
 To connect to Cartesius, please open a terminal and use the following command:
 
-    ssh -XY accntXXX@cartesius.surfsara.nl
+    ssh accntXXX@cartesius.surfsara.nl
 
 Where XXX is the account number you received via email. Type in the password you received together with your login name and press enter.
 NOTE that, the cursor won't move while tying in the password, this is normal, so just keep typing.
@@ -186,13 +186,16 @@ Type in your password and select system Cartesius.
 
 Login to Cartesius, clone the git repository and generate a key pair.
 
-    ssh -XY accntXXX@cartesius.surfsara.nl
+    ssh accntXXX@cartesius.surfsara.nl
     git clone https://github.com/Asterics2020-Obelics/School2017.git
+    
     ssh-keygen -t rsa
 
-Press Enter twice. A key pair will be generated for you in directory .ssh. Copy the contents of the public key to file authorized_keys:
+Press Enter three times. A key pair will be generated for you in directory .ssh. Copy the contents of the public key to file authorized_keys:
 
     cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+    chmod 700 ~/.ssh
+    chmod 600 ~/.ssh/authorized_keys
 
 ## Submit a job to Cartesius
 When the hands-on session starts, submit the following job to Cartesius:
