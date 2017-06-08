@@ -210,6 +210,10 @@ Open a new terminal and do the following:
 Note that, you need to replace XXX with the three digits of your login account.
 Now you can open a new tab in your browser and go to localhost:5XXX (replace XXX with the three digits of your own account).
    
+Use this command to check your job:
+
+   squeue –u $(whoami)
+   
 # Chat rooms <a name="chat"></a>
 
 [Gitter chat rooms](https://gitter.im/Asterics2020-Obelics-School2017) have been created for each hands-on session and group. If you need to talk to each other during the session, share information, ask questions and get fast answer in case all the tutors are busy, you can use the corresponding chat rooms to do so. These chat rooms can also be used by the different tutors to give information or advices before or during the hands-on sessions.
