@@ -201,6 +201,7 @@ Press Enter three times. A key pair will be generated for you in directory .ssh.
 When the hands-on session starts, submit the following job to Cartesius:
 
     cd School2017/gpu_programming
+    git pull # We made some changes to the job script recently!
     sbatch job.jupyter.gpu
 
 Open a new terminal and do the following:
