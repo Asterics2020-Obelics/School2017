@@ -213,6 +213,10 @@ Use this command to check your job:
 
    squeue –u $(whoami)
    
+To cancel your job:
+
+   scancel JobID
+   
 If your job is running, you can open your browser and go to localhost:5XXX (replace XXX with the three digits of your own account). You should be able to see the Jupyter notebook now.
    
 # Chat rooms <a name="chat"></a>
