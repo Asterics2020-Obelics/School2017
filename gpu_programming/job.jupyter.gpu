@@ -1,7 +1,8 @@
 #!/bin/bash
-#SBATCH -t 4:30:00
+#SBATCH -t 2:00:00
 #SBATCH -N 1
 #SBATCH -p gpu
+#SBATCH --reservation=annecy-1
 
 #PORT=5010
 
