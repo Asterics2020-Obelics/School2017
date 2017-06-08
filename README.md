@@ -208,11 +208,12 @@ Open a new terminal and do the following:
     ssh -L5XXX:localhost:5XXX accntXXX@vis.cartesius.surfsara.nl
 
 Note that, you need to replace XXX with the three digits of your login account.
-Now you can open a new tab in your browser and go to localhost:5XXX (replace XXX with the three digits of your own account).
    
 Use this command to check your job:
 
    squeue –u $(whoami)
+   
+If your job is running, you can open your browser and go to localhost:5XXX (replace XXX with the three digits of your own account). You should be able to see the Jupyter notebook now.
    
 # Chat rooms <a name="chat"></a>
 
