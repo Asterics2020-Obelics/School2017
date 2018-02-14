@@ -1,4 +1,4 @@
-[![School banner](https://indico.in2p3.fr/event/14227/logo)](https://indico.in2p3.fr/event/14227/logo)
+[![School indico](https://indico.in2p3.fr/event/14227/logo-1455418663.png)](https://indico.in2p3.fr/event/14227/)
 
 This repository contains all the material needed for the [1st
 ASTERICS-OBELICS International
